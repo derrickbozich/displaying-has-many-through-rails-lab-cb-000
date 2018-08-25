@@ -2,6 +2,7 @@
 <p><%= @doctor.department %></p>
 <ul>
   <p><%= @doctor.appointments.each do |appt| %></p>
+    <% binding.pry %>
     <li><%= appt.appointment_datetime.to_date %></li>
     <li><%= appt.appointment_datetime.to_time %></li>
 
