@@ -1,5 +1,5 @@
 class AppointmentsController < ApplicationController
   def index
-    raise error
+    # raise error
   end
 end
